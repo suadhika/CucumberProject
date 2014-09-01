@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="230.294021">
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for header text" time="26.276303">
+<system-out><![CDATA[Given I go to "URL" on "Mozilla"............................................passed
+When I click on "links1"....................................................passed
+Then I verify for "search_text1" against "The Company"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for header text 2" time="24.625252">
+<system-out><![CDATA[Given I go to "URL" on "Mozilla"............................................passed
+When I click on "links2"....................................................passed
+Then I verify for "search_text2" against "Thinking Ahead"...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for header text 3" time="22.137409">
+<system-out><![CDATA[Given I go to "URL" on "Mozilla"............................................passed
+When I click on "links3"....................................................passed
+Then I verify for "search_text3" against "Spotlight"........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for header text 4" time="22.015796">
+<system-out><![CDATA[Given I go to "URL" on "Mozilla"............................................passed
+When I click on "links4"....................................................passed
+Then I verify for "search_text4" against "Our Portfolio"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for header text 5" time="22.218343">
+<system-out><![CDATA[Given I go to "URL" on "Mozilla"............................................passed
+When I click on "links5"....................................................passed
+Then I verify for "search_text5" against "Careers"..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for footer text" time="15.839499">
+<system-out><![CDATA[Given I open "Mozilla"......................................................passed
+Then I navigate to "URL"....................................................passed
+Then I search for "This is Ericsson" from the "Footer_Box"..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for footer text 2" time="17.782285">
+<system-out><![CDATA[Given I open "Mozilla"......................................................passed
+Then I navigate to "URL"....................................................passed
+Then I search for "Ericsson for" from the "Footer_Box"......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for footer text 3" time="16.177255">
+<system-out><![CDATA[Given I open "Mozilla"......................................................passed
+Then I navigate to "URL"....................................................passed
+Then I search for "What's on" from the "Footer_Box".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for footer text 4" time="16.218106">
+<system-out><![CDATA[Given I open "Mozilla"......................................................passed
+Then I navigate to "URL"....................................................passed
+Then I search for "General" from the "Footer_Box"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify Header/Footer text" name="Searching for footer text 5" time="16.592261">
+<system-out><![CDATA[Given I open "Mozilla"......................................................passed
+Then I navigate to "URL"....................................................passed
+Then I search for "Related sites" from the "Footer_Box".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Navigating into ericsson.com and verify login" name="Verify login" time="30.411512">
+<system-out><![CDATA[Given I go to "URL" for "Mozilla"...........................................passed
+Then I clicks on "Login"....................................................passed
+When I select "RequireSite" for "drpDwn"....................................passed
+Then I select for "esusadh" and "Puki@1627" in respective "UsernameF" and "PasswordF".passed
+When I clicks again on "LoginButton"........................................passed
+Then I verify "WelcomeMsg1" for "Susanta Adhikary"..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

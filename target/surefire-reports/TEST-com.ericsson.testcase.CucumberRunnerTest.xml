@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="54.817" errors="0" skipped="0" tests="47" name="com.ericsson.testcase.CucumberRunnerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Susanta\CucumberDemo"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Susanta\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Susanta\Maven\apache-maven-3.1.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Java\jdk1.7.0_17\bin;C:\Users\Susanta\ANT\apache-ant-1.9.4\bin;C:\Users\Susanta\Maven\apache-maven-3.1.1\bin;C:\Users\Susanta\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Susanta"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Susanta"/>
+    <property name="java.class.path" value="C:\Users\Susanta\Maven\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_17\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Susanta\Maven\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.004" classname="| Mozilla | links1 | search_text1 | The Company |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | links1 | search_text1 | The Company |" name="When I click on &quot;links1&quot;"/>
+  <testcase time="0" classname="| Mozilla | links1 | search_text1 | The Company |" name="Then I verify for &quot;search_text1&quot; against &quot;The Company&quot;"/>
+  <testcase time="6.453" classname="| Mozilla | links1 | search_text1 | The Company |" name="| Mozilla | links1 | search_text1 | The Company |"/>
+  <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="When I click on &quot;links2&quot;"/>
+  <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="Then I verify for &quot;search_text2&quot; against &quot;Thinking Ahead&quot;"/>
+  <testcase time="4.773" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="| Mozilla | links2 | search_text2 | Thinking Ahead |"/>
+  <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="When I click on &quot;links3&quot;"/>
+  <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="Then I verify for &quot;search_text3&quot; against &quot;Spotlight&quot;"/>
+  <testcase time="4.85" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="| Mozilla | links3 | search_text3 | Spotlight |"/>
+  <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="When I click on &quot;links4&quot;"/>
+  <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="Then I verify for &quot;search_text4&quot; against &quot;Our Portfolio&quot;"/>
+  <testcase time="4.678" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="| Mozilla | links4 | search_text4 | Our Portfolio |"/>
+  <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="When I click on &quot;links5&quot;"/>
+  <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="Then I verify for &quot;search_text5&quot; against &quot;Careers&quot;"/>
+  <testcase time="4.712" classname="| Mozilla | links5 | search_text5 | Careers |" name="| Mozilla | links5 | search_text5 | Careers |"/>
+  <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Given I open &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Then I navigate to &quot;URL&quot;"/>
+  <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Then I search for &quot;This is Ericsson&quot; from the &quot;Footer_Box&quot;"/>
+  <testcase time="4.883" classname="| Mozilla | This is Ericsson |" name="| Mozilla | This is Ericsson |"/>
+  <testcase time="0" classname="| Mozilla | Ericsson for |" name="Given I open &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | Ericsson for |" name="Then I navigate to &quot;URL&quot;"/>
+  <testcase time="0" classname="| Mozilla | Ericsson for |" name="Then I search for &quot;Ericsson for&quot; from the &quot;Footer_Box&quot;"/>
+  <testcase time="5.136" classname="| Mozilla | Ericsson for |" name="| Mozilla | Ericsson for |"/>
+  <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Given I open &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Then I navigate to &quot;URL&quot;"/>
+  <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Then I search for &quot;What&apos;s on&quot; from the &quot;Footer_Box&quot;"/>
+  <testcase time="4.819" classname="| Mozilla | What&apos;s on |" name="| Mozilla | What&apos;s on |"/>
+  <testcase time="0" classname="| Mozilla | General |" name="Given I open &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | General |" name="Then I navigate to &quot;URL&quot;"/>
+  <testcase time="0" classname="| Mozilla | General |" name="Then I search for &quot;General&quot; from the &quot;Footer_Box&quot;"/>
+  <testcase time="4.825" classname="| Mozilla | General |" name="| Mozilla | General |"/>
+  <testcase time="0" classname="| Mozilla | Related sites |" name="Given I open &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | Related sites |" name="Then I navigate to &quot;URL&quot;"/>
+  <testcase time="0" classname="| Mozilla | Related sites |" name="Then I search for &quot;Related sites&quot; from the &quot;Footer_Box&quot;"/>
+  <testcase time="4.803" classname="| Mozilla | Related sites |" name="| Mozilla | Related sites |"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Given I go to &quot;URL&quot; for &quot;Mozilla&quot;"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I clicks on &quot;Login&quot;"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="When I select &quot;RequireSite&quot; for &quot;drpDwn&quot;"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I select for &quot;esusadh&quot; and &quot;Puki@1627&quot; in respective &quot;UsernameF&quot; and &quot;PasswordF&quot;"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="When I clicks again on &quot;LoginButton&quot;"/>
+  <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I verify &quot;WelcomeMsg1&quot; for &quot;Susanta Adhikary&quot;"/>
+  <testcase time="4.881" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |"/>
+</testsuite>
