@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="54.817" errors="0" skipped="0" tests="47" name="com.ericsson.testcase.CucumberRunnerTest">
+<testsuite failures="0" time="59.173" errors="0" skipped="0" tests="47" name="com.ericsson.testcase.CucumberRunnerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Susanta\CucumberDemo"/>
+    <property name="user.dir" value="C:\Users\Susanta\Projects\CucumberDemo"/>
     <property name="java.runtime.version" value="1.7.0_17-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_17\jre\lib\endorsed"/>
@@ -61,51 +61,51 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.004" classname="| Mozilla | links1 | search_text1 | The Company |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
+  <testcase time="0.01" classname="| Mozilla | links1 | search_text1 | The Company |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | links1 | search_text1 | The Company |" name="When I click on &quot;links1&quot;"/>
   <testcase time="0" classname="| Mozilla | links1 | search_text1 | The Company |" name="Then I verify for &quot;search_text1&quot; against &quot;The Company&quot;"/>
-  <testcase time="6.453" classname="| Mozilla | links1 | search_text1 | The Company |" name="| Mozilla | links1 | search_text1 | The Company |"/>
+  <testcase time="8.103" classname="| Mozilla | links1 | search_text1 | The Company |" name="| Mozilla | links1 | search_text1 | The Company |"/>
   <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="When I click on &quot;links2&quot;"/>
   <testcase time="0" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="Then I verify for &quot;search_text2&quot; against &quot;Thinking Ahead&quot;"/>
-  <testcase time="4.773" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="| Mozilla | links2 | search_text2 | Thinking Ahead |"/>
+  <testcase time="5.182" classname="| Mozilla | links2 | search_text2 | Thinking Ahead |" name="| Mozilla | links2 | search_text2 | Thinking Ahead |"/>
   <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="When I click on &quot;links3&quot;"/>
   <testcase time="0" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="Then I verify for &quot;search_text3&quot; against &quot;Spotlight&quot;"/>
-  <testcase time="4.85" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="| Mozilla | links3 | search_text3 | Spotlight |"/>
+  <testcase time="5.162" classname="| Mozilla | links3 | search_text3 | Spotlight |" name="| Mozilla | links3 | search_text3 | Spotlight |"/>
   <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="When I click on &quot;links4&quot;"/>
   <testcase time="0" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="Then I verify for &quot;search_text4&quot; against &quot;Our Portfolio&quot;"/>
-  <testcase time="4.678" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="| Mozilla | links4 | search_text4 | Our Portfolio |"/>
+  <testcase time="4.889" classname="| Mozilla | links4 | search_text4 | Our Portfolio |" name="| Mozilla | links4 | search_text4 | Our Portfolio |"/>
   <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="Given I go to &quot;URL&quot; on &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="When I click on &quot;links5&quot;"/>
   <testcase time="0" classname="| Mozilla | links5 | search_text5 | Careers |" name="Then I verify for &quot;search_text5&quot; against &quot;Careers&quot;"/>
-  <testcase time="4.712" classname="| Mozilla | links5 | search_text5 | Careers |" name="| Mozilla | links5 | search_text5 | Careers |"/>
+  <testcase time="4.981" classname="| Mozilla | links5 | search_text5 | Careers |" name="| Mozilla | links5 | search_text5 | Careers |"/>
   <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Given I open &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Then I navigate to &quot;URL&quot;"/>
   <testcase time="0" classname="| Mozilla | This is Ericsson |" name="Then I search for &quot;This is Ericsson&quot; from the &quot;Footer_Box&quot;"/>
-  <testcase time="4.883" classname="| Mozilla | This is Ericsson |" name="| Mozilla | This is Ericsson |"/>
+  <testcase time="4.981" classname="| Mozilla | This is Ericsson |" name="| Mozilla | This is Ericsson |"/>
   <testcase time="0" classname="| Mozilla | Ericsson for |" name="Given I open &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | Ericsson for |" name="Then I navigate to &quot;URL&quot;"/>
   <testcase time="0" classname="| Mozilla | Ericsson for |" name="Then I search for &quot;Ericsson for&quot; from the &quot;Footer_Box&quot;"/>
-  <testcase time="5.136" classname="| Mozilla | Ericsson for |" name="| Mozilla | Ericsson for |"/>
+  <testcase time="4.978" classname="| Mozilla | Ericsson for |" name="| Mozilla | Ericsson for |"/>
   <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Given I open &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Then I navigate to &quot;URL&quot;"/>
   <testcase time="0" classname="| Mozilla | What&apos;s on |" name="Then I search for &quot;What&apos;s on&quot; from the &quot;Footer_Box&quot;"/>
-  <testcase time="4.819" classname="| Mozilla | What&apos;s on |" name="| Mozilla | What&apos;s on |"/>
+  <testcase time="5.55" classname="| Mozilla | What&apos;s on |" name="| Mozilla | What&apos;s on |"/>
   <testcase time="0" classname="| Mozilla | General |" name="Given I open &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | General |" name="Then I navigate to &quot;URL&quot;"/>
   <testcase time="0" classname="| Mozilla | General |" name="Then I search for &quot;General&quot; from the &quot;Footer_Box&quot;"/>
-  <testcase time="4.825" classname="| Mozilla | General |" name="| Mozilla | General |"/>
+  <testcase time="4.965" classname="| Mozilla | General |" name="| Mozilla | General |"/>
   <testcase time="0" classname="| Mozilla | Related sites |" name="Given I open &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | Related sites |" name="Then I navigate to &quot;URL&quot;"/>
   <testcase time="0" classname="| Mozilla | Related sites |" name="Then I search for &quot;Related sites&quot; from the &quot;Footer_Box&quot;"/>
-  <testcase time="4.803" classname="| Mozilla | Related sites |" name="| Mozilla | Related sites |"/>
+  <testcase time="5.024" classname="| Mozilla | Related sites |" name="| Mozilla | Related sites |"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Given I go to &quot;URL&quot; for &quot;Mozilla&quot;"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I clicks on &quot;Login&quot;"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="When I select &quot;RequireSite&quot; for &quot;drpDwn&quot;"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I select for &quot;esusadh&quot; and &quot;Puki@1627&quot; in respective &quot;UsernameF&quot; and &quot;PasswordF&quot;"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="When I clicks again on &quot;LoginButton&quot;"/>
   <testcase time="0" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="Then I verify &quot;WelcomeMsg1&quot; for &quot;Susanta Adhikary&quot;"/>
-  <testcase time="4.881" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |"/>
+  <testcase time="5.348" classname="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |" name="| Mozilla | esusadh | Puki@1627 | WelcomeMsg1 | Susanta Adhikary |"/>
 </testsuite>
